@@ -19,9 +19,9 @@ env:
   # .config 配置文件名
   CONFIG_FILE: 24.10/mt7986-clx-s20p.config
   # 自定义脚本 1 (在更新 feeds 之前运行)
-  DIY_P1_SH: diy-part1.sh
+  DIY_P1_SH: 24.10/diy-part1.sh
   # 自定义脚本 2 (在更新 feeds 之后运行)
-  DIY_P2_SH: diy-part2.sh
+  DIY_P2_SH: 24.10/diy-part2.sh
   # 上传 bin 目录 (包含所有 ipk)
   UPLOAD_BIN_DIR: true
   # 上传固件目录 (包含 img/bin)
