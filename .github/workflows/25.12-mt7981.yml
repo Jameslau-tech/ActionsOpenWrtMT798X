@@ -4,11 +4,11 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 2512-mt7981
+name: 25.12-mt7981
 
 env:
   # 设备名称，用于生成发布标签
-  DEVICE_NAME: 2512-mt7981
+  DEVICE_NAME: 25.12-mt7981
   # 源码仓库地址
   #REPO_URL: https://github.com/dailook/immortalwrt-mt798x-6.6
   #REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
