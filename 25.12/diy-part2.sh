@@ -65,7 +65,7 @@ if [ -f "$XCRYPT_MK" ]; then
 fi
 
 # 5.1 Tailscale -> VPN 
-TS_DIR=$(find feeds/tailscale_community -type d -name "luci-app-tailscale-community" 2>/dev/null | head -n 1)
+TS_DIR=$(find feeds package -type d -name "luci-app-tailscale-community" 2>/dev/null | head -n 1)
 
 if [ -n "$TS_DIR" ]; then
     echo ">>> 发现 Tailscale 插件目录: $TS_DIR"
