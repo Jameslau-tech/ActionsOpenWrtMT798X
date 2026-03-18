@@ -10,7 +10,7 @@
      
      基于immortalwrt的闭源WIFI固件
 
-     默认地址：192.168.30.1  密码：无，直接回车。
+     默认地址：192.168.2.1 (192.168.30.1)  密码：无，直接回车。
 
 H大源码网址: https://github.com/hanwckf/immortalwrt-mt798x
 
