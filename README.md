@@ -4,44 +4,31 @@
 
 路由器型号：
 
-     wr30u / JCG Q30 / uax3000e / clx s20l / clx s20p
+   clx s20l / clx s20p
 
 说明：
      
      基于immortalwrt的闭源WIFI固件
-
      默认地址：192.168.2.1 (192.168.30.1)  密码：无，直接回车。
 
 H大源码网址: https://github.com/hanwckf/immortalwrt-mt798x
-
 237大佬源码网址: https://github.com/padavanonly/immortalwrt-mt798x-24.10
-
 dailook大佬源码网址: https://github.com/dailook/immortalwrt-mt798x-6.6
-
 25.12分支维护大佬chasey-dev网址：https://github.com/chasey-dev/immortalwrt-mt798x-rebase
-
 21.02分支的脚本参考和借鉴加菲猫大佬的云编译脚本：https://github.com/lgs2007m/Actions-OpenWrt
-
 脚本参考有 七曜大佬 ：https://github.com/VIKINGYFY/CloseWRT-CI
 
 因为quickstart的首页温度无法显示正常温度读数，原因为/cgi-bin/luci/istore/system/status/ 这个请求没有 cpuTemperature 这个返回值，这个请求是 /usr/lib/lua/luci/controller/istore_backend.lua 在处理的，但 lua 里只是转给了 quickstart 监听的端口，所以核心问题是 istoreos 的 quickstart 不支持这个架构的 CPU 温度获取所以没有输出。使用了地址为：https://gist.github.com/puteulanus/1c180fae6bccd25e57eb6d30b7aa28aa 提供的修复文件：istore_backend.lua。感谢作者的分享。
 
 使用p3terx云编译模板
-
 固件位置：https://github.com/yhlh9982/MT798X-IstoreOS.style/releases
      
 注意事项：
 
      不死u-boot用 H 大的刷，地址：https://github.com/hanwckf/bl-mt798x/releases
-
      u-boot 刷机方法：https://cmi.hanwckf.top/p/mt798x-uboot-usage
-
      更新刷写固件时，跨版本更新的，记得不要保存设置，每次更新系统后再按住 rest键8 秒复位一次
-
      刷写完新固件后，尤其是跨版本更新的，记得先清理浏览器缓存，再访问路由器进行设置。
-
-
-
 
 # Actions-OpenWrt
 
