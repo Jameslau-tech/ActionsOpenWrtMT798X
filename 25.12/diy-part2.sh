@@ -72,7 +72,7 @@ if [ -n "$OPENLIST2_DIR" ]; then
 fi
 
 #修复Rust编译失败
-RUST_FILE=$(find ../feeds/packages/ -maxdepth 3 -type f -wholename "*/rust/Makefile")
+RUST_FILE=$(find ../feeds/packages/ -maxdepth 5 -type f -wholename "*/rust/Makefile")
 if [ -f "$RUST_FILE" ]; then
 	echo " "
 
@@ -82,6 +82,6 @@ if [ -f "$RUST_FILE" ]; then
 fi
 
 # 修改默认 IP (192.168.2.1)
-sed -i 's/192.168.6.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168.6.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 echo "✅ SSH2 配置完成。"
