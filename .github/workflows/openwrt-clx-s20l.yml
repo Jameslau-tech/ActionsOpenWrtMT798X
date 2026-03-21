@@ -12,7 +12,7 @@ env:
   # 源码仓库地址
   REPO_URL: https://github.com/Jameslau-tech/openwrtS20L
     # 源码分支
-  REPO_BRANCH: main
+  REPO_BRANCH: 25.12
   # Feeds 配置文件名
   FEEDS_CONF: feeds.conf.default
   # .config 配置文件名
