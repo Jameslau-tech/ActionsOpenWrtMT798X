@@ -12,7 +12,7 @@ env:
   # 源码仓库地址
   REPO_URL: https://github.com/Jameslau-tech/openwrtS20L
     # 源码分支
-  REPO_BRANCH: 25.12
+  REPO_BRANCH: main
   # Feeds 配置文件名
   FEEDS_CONF: feeds.conf.default
   # .config 配置文件名
@@ -168,7 +168,7 @@ jobs:
         cd openwrt
         echo "开始编译..."
         df -hT /
-        sed -i 's/--set=llvm\.download-ci-llvm=true/--set=llvm.download-ci-llvm=false/' feeds/packages/lang/rust/Makefile
+    #  sed -i 's/--set=llvm\.download-ci-llvm=true/--set=llvm.download-ci-llvm=false/' feeds/packages/lang/rust/Makefile
         make -j$(nproc) || make -j1 || make -j1 V=s
         
         echo "========================================"
