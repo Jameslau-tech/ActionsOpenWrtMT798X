@@ -53,3 +53,22 @@ echo 'src-git aurora https://github.com/eamonxg/luci-theme-aurora.git' >> feeds.
 echo 'src-git aurora_config https://github.com/eamonxg/luci-app-aurora-config.git' >> feeds.conf.default
 echo 'src-git kucat https://github.com/sirpdboy/luci-theme-kucat.git' >> feeds.conf.default
 echo 'src-git kucat_config https://github.com/sirpdboy/luci-app-kucat-config.git' >> feeds.conf.default
+
+# 自定义默认网关，后方的192.168.61.1即是可自定义的部分
+#sed -i 's/192.168.6.1/192.168.61.1/g' package/base-files/files/bin/config_generate
+# nex example
+#sed -i 's/192.168.1.1/192.168.51.1/g' package/base-files/files/bin/config_generate
+
+#sed -i "s/hostname='ImmortalWrt'/hostname='360T7'/g" package/base-files/files/bin/config_generate
+
+# 固件版本名称自定义
+#sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION='OpenWrt By gino $(date +"%Y%m%d")'/g" package/base-files/files/etc/openwrt_release
+
+# 取消原主题luci-theme-bootstrap 为默认主题
+#sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
+
+# 修改 argon 为默认主题
+#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+
+# 删除原默认主题
+#rm -rf package/lean/luci-theme-bootstrap
