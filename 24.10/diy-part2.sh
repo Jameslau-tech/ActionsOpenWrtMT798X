@@ -86,12 +86,12 @@ fi
 
 # 5.2 KSMBD -> NAS (只在 ksmbd 目录下改)
 # 自动定位 ksmbd 插件的物理目录，通常在 feeds/luci 下
-KSMBD_DIR=$(find feeds/luci -type d -name "luci-app-ksmbd" | head -n 1)
-if [ -n "$KSMBD_DIR" ]; then
-    find "$KSMBD_DIR" -type f -exec sed -i 's|admin/services/ksmbd|admin/nas/ksmbd|g' {} +
-    find "$KSMBD_DIR" -type f -exec sed -i 's/"parent": "luci.services"/"parent": "luci.nas"/g' {} +
-    echo "✅ KSMBD 菜单已移动"
-fi
+#KSMBD_DIR=$(find feeds/luci -type d -name "luci-app-ksmbd" | head -n 1)
+#if [ -n "$KSMBD_DIR" ]; then
+#    find "$KSMBD_DIR" -type f -exec sed -i 's|admin/services/ksmbd|admin/nas/ksmbd|g' {} +
+#    find "$KSMBD_DIR" -type f -exec sed -i 's/"parent": "luci.services"/"parent": "luci.nas"/g' {} +
+#    echo "✅ KSMBD 菜单已移动"
+#fi
 
 
 #修复Rust编译失败
