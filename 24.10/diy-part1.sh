@@ -39,6 +39,7 @@ UPDATE_PACKAGE() {
 		mv -f $REPO_NAME $PKG_NAME
 	fi
 }
+echo 'src-git lucky https://github.com/sirpdboy/luci-app-lucky.git package/lucky' >> feeds.conf.default
 
 # 调用示例
 # UPDATE_PACKAGE "OpenAppFilter" "destan19/OpenAppFilter" "master" "" "custom_name1 custom_name2"
