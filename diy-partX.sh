@@ -34,7 +34,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.
 
 # === 功能插件 Feeds ===
 # Lucky (大吉大利，端口转发/反向代理神器)
-echo 'src-git lucky https://github.com/gdy666/luci-app-lucky.git' >> feeds.conf.default
+echo 'src-git lucky https://github.com/sirpdboy/luci-app-lucky.git package/lucky' >> feeds.conf.default
 # Openlist2 (可能是指 OpenList 或相关列表工具)
 echo 'src-git openlist2 https://github.com/sbwml/luci-app-openlist2.git' >> feeds.conf.default
 # Sirpdboy 的插件 (看门狗 & 计划任务)
