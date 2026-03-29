@@ -61,8 +61,18 @@ if [ -n "$KSMBD_DIR" ]; then
     echo "✅ KSMBD 菜单已移动"
 fi
 
+# 5.3 OpenList2 -> NAS (自动定位并精准修改)
+OPENLIST2_DIR=$(find feeds package -type d -name "luci-app-openlist2" | head -n 1)
+if [ -n "$OPENLIST2_DIR" ]; then
+    # 修改菜单路径：从 services 变更为 nas
+    find "$OPENLIST2_DIR" -type f -exec sed -i 's|admin/services/openlist2|admin/nas/openlist2|g' {} +
+    # 修改 JSON 父级定义 (如果存在 parent 字段)
+    find "$OPENLIST2_DIR" -type f -exec sed -i 's/"parent": "luci.services"/"parent": "luci.nas"/g' {} +
+    echo "✅ OpenList2 菜单已移动到 NAS"
+fi
+
 #修复Rust编译失败
-RUST_FILE=$(find ../feeds/packages/ -maxdepth 5 -type f -wholename "*/rust/Makefile")
+RUST_FILE=$(find ../feeds/packages/ -maxdepth 3 -type f -wholename "*/rust/Makefile")
 if [ -f "$RUST_FILE" ]; then
 	echo " "
 
@@ -71,9 +81,5 @@ if [ -f "$RUST_FILE" ]; then
 	cd $PKG_PATH && echo "rust has been fixed!"
 fi
 
-# 修改默认 IP (192.168.2.1)
-# sed -i 's/192.168.6.1/192.168.2.1/g' package/base-files/files/bin/config_generate
-sed -i 's/192.168.6.1/192.168.2.1/g' package/base-files/files/bin/config_generate
-sed -i 's/ImmortalWrt/JWRT/g' package/base-files/files/bin/config_generate
-
-echo "✅ SSH2 配置完成。"
+# 修改默认 IP (192.168.30.1)
+sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generateecho "✅ SSH2 配置完成。"
