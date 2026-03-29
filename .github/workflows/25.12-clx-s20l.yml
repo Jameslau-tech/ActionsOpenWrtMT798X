@@ -134,6 +134,7 @@ jobs:
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
         cd openwrt
+        touch target/linux/*/Makefile
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     # 6. 加载自定义配置 (diy-part2.sh)
