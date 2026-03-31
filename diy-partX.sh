@@ -17,7 +17,11 @@ git clone --depth=1 https://github.com/linkease/nas-packages-luci  package/nas-l
 
 #mediatek
 # https://git01.mediatek.com/plugins/gitiles/openwrt/feeds/mtk-openwrt-feeds/
-# 科学插件
+#src-git openclash https://github.com/vernesong/OpenClash.git
+#src-git diskman https://github.com/lisaac/luci-app-diskman.git
+#src-git lucky https://github.com/sirpdboy/luci-app-lucky.git
+#src-git Argon https://github.com/jerrykuku/luci-theme-argo
+科学插件
 # Passwall 
 # echo 'src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git' >> feeds.conf.default
 echo 'src-git passwall https://github.com/Openwrt-Passwall/openwrt-passwall.git' >> feeds.conf.default
