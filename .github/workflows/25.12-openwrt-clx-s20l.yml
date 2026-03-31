@@ -22,7 +22,7 @@ env:
   # 自定义脚本 1 (在更新 feeds 之前运行)
   DIY_P1_SH: 25.12/diy-part1.sh
   # 自定义脚本 2 (在更新 feeds 之后运行)
-  DIY_P2_SH: 25.12/diy-part2.sh
+  DIY_P2_SH: 25.12/diywrt.sh
   # 上传 bin 目录 (包含所有 ipk)
   UPLOAD_BIN_DIR: true
   # 上传固件目录 (包含 img/bin)
@@ -134,10 +134,10 @@ jobs:
     - name: Load custom feeds （加载自定义 Feeds）
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
-        chmod +x $DIY_P1_SH
-        cd openwrt
-        touch target/linux/*/Makefile
-        $GITHUB_WORKSPACE/$DIY_P1_SH
+       # chmod +x $DIY_P1_SH
+      # cd openwrt
+        # touch target/linux/*/Makefile
+       # $GITHUB_WORKSPACE/$DIY_P1_SH
 
     # 6. 加载自定义配置 (diy-part2.sh)
     - name: Load custom configuration （加载自定义配置diy-part2）
