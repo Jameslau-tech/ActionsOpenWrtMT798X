@@ -36,6 +36,8 @@ echo 'src-git daed https://github.com/QiuSimons/luci-app-daed.git;kix' >> feeds.
 # Helloworld (SSR+)
 echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
 
+# https://github.com/timsaya/luci-app-bandix
+
 # === 功能插件 Feeds ===
 # Lucky (大吉大利，端口转发/反向代理神器)
 echo 'src-git lucky https://github.com/sirpdboy/luci-app-lucky.git package/lucky' >> feeds.conf.default
