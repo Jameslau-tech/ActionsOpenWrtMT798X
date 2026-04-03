@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >> feeds.conf.default
+
 #安装和更新软件包
 UPDATE_PACKAGE() {
 	local PKG_NAME=$1
