@@ -7,14 +7,14 @@
 说明：
      
      基于immortalwrt的闭源WIFI固件
-     默认地址：192.168.2.1 密码：无，直接回车。
+     默认地址：192.168.2.1 密码：无，直接回车
+     分居于openwrt25.12最新的APK包格式（注意不是android的APK，只是同名而已） 和 24.10分支，用opkg包格式2种极速精简固件
 - 感谢 https://github.com/yhlh9982/
-- H大源码网址: https://github.com/hanwckf/immortalwrt-mt798x
-- 237大佬源码网址: https://github.com/padavanonly/immortalwrt-mt798x-24.10
 - dailook大佬源码网址: https://github.com/dailook/immortalwrt-mt798x-6.6
 - 25.12分支维护大佬chasey-dev网址：https://github.com/chasey-dev/immortalwrt-mt798x-rebase
 - 21.02分支的脚本参考和借鉴加菲猫大佬的云编译脚本：https://github.com/lgs2007m/Actions-OpenWrt
 - 脚本参考有 七曜大佬 ：https://github.com/VIKINGYFY/CloseWRT-CI
+- apk包格式对安装的签名要求跟严格，一般的，安装第三方包可以用：apk add --allow-untrusted XXX.apk
     
 注意事项：
      不死u-boot用 H 大的刷，地址：https://github.com/hanwckf/bl-mt798x/releases
