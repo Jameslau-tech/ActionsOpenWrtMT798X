@@ -4,7 +4,7 @@
    clx s20l 
 说明：
      
-     基immortalwrt的闭源带WIFI硬件加速
+     基immortalwrt的闭源带WIFI硬件加速不带docker固件
      默认地址：192.168.2.1 密码：无，直接回车
      2种固件：openwrt25.12最新的APK包格式（注意非android的APK，同名而已）和 24.10分支opkg包格式2种固件
 - 感谢 https://github.com/yhlh9982/
