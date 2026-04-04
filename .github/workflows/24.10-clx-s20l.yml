@@ -8,7 +8,7 @@ name: 24.10-clx-s20l
 
 env:
   # 设备名称，用于生成发布标签
-  DEVICE_NAME: 24.10-clx-s20l
+  DEVICE_NAME: JWRT24.10-clx-s20l
   # 源码仓库地址
   REPO_URL: https://github.com/Jameslau-tech/immortalwrt-mt798x-6.6
   # 源码分支
