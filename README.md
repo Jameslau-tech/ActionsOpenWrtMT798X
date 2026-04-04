@@ -1,6 +1,4 @@
-
-
-云编译798x特定机型的固件 （p3terx 2024新版 基于ubuntu22.04）
+云编译798x特定机型的精简极速固件 （p3terx 2024新版 基于ubuntu22.04）
 
 路由器型号：
 
@@ -9,7 +7,7 @@
 说明：
      
      基于immortalwrt的闭源WIFI固件
-     默认地址：192.168.2.1 (192.168.30.1)  密码：无，直接回车。
+     默认地址：192.168.2.1 密码：无，直接回车。
 - 感谢 https://github.com/yhlh9982/
 - H大源码网址: https://github.com/hanwckf/immortalwrt-mt798x
 - 237大佬源码网址: https://github.com/padavanonly/immortalwrt-mt798x-24.10
