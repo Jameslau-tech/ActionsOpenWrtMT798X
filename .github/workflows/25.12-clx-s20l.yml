@@ -8,7 +8,7 @@ name: 25.12-clx-s20l
 
 env:
   # 设备名称，用于生成发布标签
-  DEVICE_NAME: 25.12-clx-s20l
+  DEVICE_NAME: JWRT25.12-clx-s20l
   # 源码仓库地址
   # REPO_URL: https://github.com/dailook/immortalwrt-mt798x-6.6
   # REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
@@ -242,7 +242,7 @@ jobs:
         BRANCH="${{ env.REPO_BRANCH }}"
         BUILD_TIME=$(date +"%Y%m%d-%H%M")
         
-        RELEASE_TAG="${DEVICE_NAME}-${AUTHOR}-${BRANCH}-${BUILD_TIME}"
+        RELEASE_TAG="${DEVICE_NAME}-${BUILD_TIME}"
         RELEASE_TAG=$(echo "$RELEASE_TAG" | sed 's/[^a-zA-Z0-9._-]/-/g')
         
         echo "release_tag=${RELEASE_TAG}" >> $GITHUB_OUTPUT
