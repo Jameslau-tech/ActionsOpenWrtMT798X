@@ -81,11 +81,11 @@ if [ -f "$RUST_FILE" ]; then
 	cd $PKG_PATH && echo "rust has been fixed!"
 fi
 
-cp -af ./feeds/mtk_openwrt_feed/25.12/files/* .
-for file in $(find ./feeds/mtk_openwrt_feed/25.12/patches-base -name "*.patch" | sort); do patch -f -p1 -i ${file}; done
+#cp -af ./feeds/mtk_openwrt_feed/25.12/files/* .
+#for file in $(find ./feeds/mtk_openwrt_feed/25.12/patches-base -name "*.patch" | sort); do patch -f -p1 -i ${file}; done
 
 # 修改默认 IP (192.168.30.1)
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
-sed -i 's/ImmortalWrt/JWRT/g' package/base-files/files/bin/config_generate
+sed -i 's/FanchmWrt/JWRT/g' package/base-files/files/bin/config_generate
 
 echo "✅ SSH2 配置完成。"
