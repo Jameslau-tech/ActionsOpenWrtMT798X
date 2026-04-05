@@ -136,7 +136,6 @@ jobs:
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
         cd openwrt
- #       touch target/linux/*/Makefile
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     # 6. 加载自定义配置 (diy-part2.sh)
@@ -147,8 +146,6 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
-        cp -af ./feeds/mtk_openwrt_feed/25.12/files/* .
-for file in $(find ./feeds/mtk_openwrt_feed/25.12/patches-base -name "*.patch" | sort); do patch -f -p1 -i ${file}; done
 
     # 7. SSH 调试 (可选)
     - name: SSH connection to Actions （SSH 调试）
