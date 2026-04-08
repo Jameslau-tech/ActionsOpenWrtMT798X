@@ -10,6 +10,10 @@
 # See /LICENSE for more information.
 #
 
+# https://github.com/irrocu/openclash
+# https://github.com/zuifengguai/OpenClash_Clash
+# https://github.com/openclashnode/openclashnode.github.io
+
 # istore
 git clone --depth=1 https://github.com/linkease/istore  package/istore
 git clone --depth=1 https://github.com/linkease/nas-packages  package/nas
