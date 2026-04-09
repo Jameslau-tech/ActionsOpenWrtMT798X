@@ -13,6 +13,7 @@
 # https://github.com/irrocu/openclash
 # https://github.com/zuifengguai/OpenClash_Clash
 # https://github.com/openclashnode/openclashnode.github.io
+# https://github.com/xiaojing110/luci-app-openclaw
 
 # istore
 git clone --depth=1 https://github.com/linkease/istore  package/istore
