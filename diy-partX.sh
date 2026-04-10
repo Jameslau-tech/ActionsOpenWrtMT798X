@@ -10,6 +10,11 @@
 # See /LICENSE for more information.
 #
 
+https://github.com/fabricio3g/microbot-claw
+https://github.com/kenzok8/luci-app-openclaw/releases
+https://github.com/lzylipu/openclaw-skill-openwrt-redial
+https://github.com/duomi998/luci-app-openclaw-js
+
 # https://github.com/irrocu/openclash
 # https://github.com/zuifengguai/OpenClash_Clash
 # https://github.com/openclashnode/openclashnode.github.io
