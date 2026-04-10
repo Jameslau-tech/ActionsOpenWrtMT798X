@@ -86,6 +86,6 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 sed -i 's/ImmortalWrt/JWRT/g' package/base-files/files/bin/config_generate
 
 # change APP Version
-sed -i 's/0.47.075/0.47.088/g' package/feeds/luci/luci-app-openclash/Makefile
+# sed -i 's/0.47.075/0.47.088/g' package/feeds/luci/luci-app-openclash/Makefile
 
 echo "✅ SSH2 配置完成。"
