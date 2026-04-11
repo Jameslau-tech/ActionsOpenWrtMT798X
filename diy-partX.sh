@@ -11,8 +11,8 @@
 #
 https://github.com/Yuzhii0718
 https://github.com/x-wrt
+https://github.com/ssnlin
 https://github.com/fabricio3g/microbot-claw
-https://github.com/kenzok8/luci-app-openclaw/releases
 https://github.com/lzylipu/openclaw-skill-openwrt-redial
 https://github.com/duomi998/luci-app-openclaw-js
 
