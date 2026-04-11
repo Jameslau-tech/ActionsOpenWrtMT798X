@@ -107,7 +107,7 @@ jobs:
         sudo apt -yqq install dos2unix libfuse-dev clang llvm npm
         # 添加 pnpm 依赖
         sudo npm install -g pnpm
-        
+        #sudo apt install python3-talloc-dev libtalloc-dev //if need samba4   
         sudo bash -c 'bash <(curl -sL https://build-scripts.immortalwrt.org/init_build_environment.sh )'
         
         sudo mkdir -p /workdir
