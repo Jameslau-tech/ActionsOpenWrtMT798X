@@ -9,6 +9,7 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 # https://github.com/SmartRouterZone/CLX-S20P/tree/master
+https://github.com/SmartRouterZone/Source
 https://github.com/Yuzhii0718
 https://github.com/x-wrt
 https://github.com/ssnlin
