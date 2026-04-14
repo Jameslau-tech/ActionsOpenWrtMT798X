@@ -82,7 +82,7 @@ if [ -f "$RUST_FILE" ]; then
 fi
 
 # 修改默认 IP (192.168.30.1)
-sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
 sed -i 's/ImmortalWrt/JWRT/g' package/base-files/files/bin/config_generate
 
 # change APP Version
