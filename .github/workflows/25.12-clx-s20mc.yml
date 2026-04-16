@@ -4,7 +4,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 25.12-clx-s20m
+name: 25.12-clx-s20mc
 
 env:
   # 设备名称，用于生成发布标签
@@ -18,7 +18,7 @@ env:
   # Feeds 配置文件名
   FEEDS_CONF: feeds.conf.default
   # .config 配置文件名
-  CONFIG_FILE: 25.12/mt7986-clx-s20m.config
+  CONFIG_FILE: 25.12/s20mc.config
   # 自定义脚本 1 (在更新 feeds 之前运行)
   DIY_P1_SH: 25.12/diy-part1.sh
   # 自定义脚本 2 (在更新 feeds 之后运行)
