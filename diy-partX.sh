@@ -92,3 +92,29 @@ echo 'src-git kucat_config https://github.com/sirpdboy/luci-app-kucat-config.git
 
 # 删除原默认主题
 #rm -rf package/lean/luci-theme-bootstrap
+
+# fam app
+CONFIG_PACKAGE_luci-app-fwx-appfilter=y
+CONFIG_PACKAGE_luci-app-fwx-dashboard=y
+CONFIG_PACKAGE_luci-app-fwx-dashboard-setting=y
+CONFIG_PACKAGE_luci-app-fwx-feature=y
+CONFIG_PACKAGE_luci-app-fwx-macfilter=y
+#CONFIG_PACKAGE_luci-app-fwx-network=y
+CONFIG_PACKAGE_luci-app-fwx-record=y
+CONFIG_PACKAGE_luci-app-fwx-resources=y
+CONFIG_PACKAGE_luci-app-fwx-session-stat=y
+CONFIG_PACKAGE_luci-app-fwx-system=y
+CONFIG_PACKAGE_luci-app-fwx-user=y
+CONFIG_PACKAGE_luci-app-fwx-user-record=y
+CONFIG_PACKAGE_luci-i18n-fwx-appfilter-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-fwx-dashboard-setting-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-fwx-dashboard-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-fwx-feature-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-fwx-macfilter-zh-cn=y
+#CONFIG_PACKAGE_luci-i18n-fwx-network-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-fwx-record-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-fwx-session-stat-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-fwx-system-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-fwx-user-record-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-fwx-user-zh-cn=y
+
