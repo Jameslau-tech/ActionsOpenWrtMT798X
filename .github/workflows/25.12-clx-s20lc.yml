@@ -4,7 +4,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 25.12-clx-s20l
+name: 25.12-clx-s20lc
 
 env:
   # 设备名称，用于生成发布标签
