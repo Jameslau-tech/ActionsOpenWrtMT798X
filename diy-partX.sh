@@ -8,6 +8,7 @@
 #https://github.com/bia-pain-bache/BPB-Worker-Panel
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
+https://github.com/byJoey/cfnew/tree/main
 # https://github.com/SmartRouterZone/CLX-S20P/tree/master
 https://github.com/SmartRouterZone/Source
 https://github.com/Yuzhii0718
