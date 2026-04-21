@@ -173,8 +173,8 @@ CONFIG_XPS=y
 # TCP 优化
 # =========================================================
 
-CONFIG_TCP_CONG_BBR=y
-CONFIG_DEFAULT_TCP_CONG="bbr"
+#CONFIG_TCP_CONG_BBR=y
+#CONFIG_DEFAULT_TCP_CONG="bbr"
 
 # =========================================================
 # 高速包处理
