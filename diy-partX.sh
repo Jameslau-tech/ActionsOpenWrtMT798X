@@ -5,6 +5,7 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 # Copyright (c) 2019-2024 P3TERX <https://p3terx.com>
+https://github.com/VIKINGYFY/CloseWRT-CI
 #https://github.com/bia-pain-bache/BPB-Worker-Panel
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
