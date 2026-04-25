@@ -4,6 +4,10 @@
 # File name: diy-part1.sh
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
+节点订阅
+https://github.com/beck-8/subs-check
+https://github.com/shuaidaoya/FreeNodes
+
 # Copyright (c) 2019-2024 P3TERX <https://p3terx.com>
 https://github.com/VIKINGYFY/CloseWRT-CI
 #https://github.com/bia-pain-bache/BPB-Worker-Panel
