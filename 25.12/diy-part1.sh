@@ -26,7 +26,7 @@ rm -rf feeds/luci/applications/luci-app-openclash
 git clone --depth=1 -b dev https://github.com/vernesong/OpenClash.git feeds/luci/applications/luci-app-openclash
 
 # Nikki / Momo
-#git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki.git package/custom/nikki
+git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki.git package/custom/nikki
 #git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-momo.git package/custom/momo
 
 # Daed
@@ -40,7 +40,7 @@ git clone --depth=1 -b dev https://github.com/vernesong/OpenClash.git feeds/luci
 # 功能插件
 #git clone --depth=1 https://github.com/sirpdboy/luci-app-poweroffdevice.git package/custom/poweroffdevice
 #git clone --depth=1 https://github.com/isalikai/luci-app-owq-wol.git package/custom/owq-wol
-git clone --depth=1 https://github.com/gdy666/luci-app-lucky.git package/custom/lucky
+#git clone --depth=1 https://github.com/gdy666/luci-app-lucky.git package/custom/lucky
 git clone --depth=1 https://github.com/sbwml/luci-app-openlist2.git package/custom/openlist2
 
 #git clone --depth=1 https://github.com/sirpdboy/luci-app-watchdog.git package/custom/watchdog
