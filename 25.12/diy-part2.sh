@@ -97,6 +97,8 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 sed -i 's/ImmortalWrt/JWRT/g' package/base-files/files/bin/config_generate
 #sed -i 's/hostname='.*'/hostname='JWRT'/g' package/base-files/files/bin/config_generate
 
+#修改默认主题
+#sed -i "s/luci-theme-bootstrap/luci-theme-$WRT_THEME/g" $(find ./feeds/luci/collections/ -type f -name "Makefile")
 
 #CFG_FILE="./package/base-files/files/bin/config_generate"
 #修改默认IP地址
