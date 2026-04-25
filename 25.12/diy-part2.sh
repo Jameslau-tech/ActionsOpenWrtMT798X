@@ -81,6 +81,17 @@ if [ -f "$RUST_FILE" ]; then
 	cd $PKG_PATH && echo "rust has been fixed!"
 fi
 
+#修改argon主题字体和颜色
+if [ -d *"luci-theme-argon"* ]; then
+	echo " "
+
+	cd ./luci-theme-argon/
+
+	sed -i "s/primary '.*'/primary '#31a1a1'/; s/'0.2'/'0.5'/; s/'none'/'bing'/; s/'600'/'normal'/" ./luci-app-argon-config/root/etc/config/argon
+
+	cd $PKG_PATH && echo "theme-argon has been fixed!"
+fi
+
 # 修改默认 IP (192.168.30.1)
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 sed -i 's/ImmortalWrt/JWRT/g' package/base-files/files/bin/config_generate
