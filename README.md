@@ -1,7 +1,7 @@
 云编译798x特定机型的精简极速固件 （p3terx 2024新版 基于ubuntu22.04）
 
 路由器型号：
-   clx s20l 
+   clx s20l s20m
 说明：
      
      基immortalwrt的闭源带WIFI硬件加速不带docker固件
