@@ -8,8 +8,8 @@ $ https://github.com/Jameslau-tech/fanchmwrt
 2) new package：package/fcm
 3）new feed
 src-git fanchmwrt https://github.com/fanchmwrt/fanchmwrt-packages.git
-src-git OpenWRT_packages https://github.com/ZeroWrt/openwrt_packages.git
-#
+
+#src-git OpenWRT_packages https://github.com/ZeroWrt/openwrt_packages.git
 节点订阅
 https://github.com/beck-8/subs-check
 https://github.com/shuaidaoya/FreeNodes
