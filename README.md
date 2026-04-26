@@ -1,12 +1,12 @@
 云编译798x特定机型的精简极速固件 （p3terx 2024新版 基于ubuntu22.04）
 
 路由器型号：
-   clx s20l s20m
+   clx s20l s20m S20P
 说明：
      
      基immortalwrt的闭源带WIFI硬件加速不带docker固件
      默认地址：192.168.2.1 密码：无，直接回车
-     2种固件：openwrt25.12最新的APK包格式（注意非android的APK，同名而已）和 24.10分支opkg包格式2种固件
+     openwrt25.12最新的APK包格式（注意非android的APK，同名而已）
 - 感谢 https://github.com/yhlh9982/
 - dailook大佬源码网址: https://github.com/dailook/immortalwrt-mt798x-6.6
 - 25.12分支维护大佬chasey-dev网址：https://github.com/chasey-dev/immortalwrt-mt798x-rebase
