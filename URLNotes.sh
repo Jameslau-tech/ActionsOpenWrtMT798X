@@ -100,6 +100,9 @@ echo 'src-git kucat_config https://github.com/sirpdboy/luci-app-kucat-config.git
 #rm -rf package/lean/luci-theme-bootstrap
 
 # fam app
+CONFIG_PACKAGE_fwxd=y
+CONFIG_PACKAGE_libfwx_common=y
+CONFIG_PACKAGE_kmod-fwx=y
 CONFIG_PACKAGE_luci-app-fwx-appfilter=y
 CONFIG_PACKAGE_luci-app-fwx-dashboard=y
 CONFIG_PACKAGE_luci-app-fwx-dashboard-setting=y
