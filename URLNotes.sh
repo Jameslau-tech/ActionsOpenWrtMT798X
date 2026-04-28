@@ -11,7 +11,8 @@ src-git fanchmwrt https://github.com/fanchmwrt/fanchmwrt-packages.git
 https://github.com/beck-8/subs-check
 https://github.com/shuaidaoya/FreeNodes
 
-# Copyright (c) 2019-2024 P3TERX <https://p3terx.com>
+https://github.com/zjuahhy/immortalwrt-mt798x-rebase/
+https://github.com/he-yu-qing/2512immortalwrt-mt798x-rebase
 https://github.com/VIKINGYFY/CloseWRT-CI
 #https://github.com/bia-pain-bache/BPB-Worker-Panel
 # This is free software, licensed under the MIT License.
