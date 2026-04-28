@@ -1,8 +1,5 @@
 #!/bin/bash
-#
-# https://github.com/P3TERX/Actions-OpenWrt
-# File name: diy-part1.sh
-# Description: OpenWrt DIY script part 1 (Before Update feeds)
+
 $ https://github.com/Jameslau-tech/fanchmwrt
 1) kernel patch: target/linux/generic/hack-6.12/950-fwx-nf-conn-struct-user-hook.patch
 2) new package：package/fcm
@@ -21,18 +18,14 @@ https://github.com/VIKINGYFY/CloseWRT-CI
 # See /LICENSE for more information.
 https://github.com/byJoey/cfnew/tree/main
 # https://github.com/SmartRouterZone/CLX-S20P/tree/master
-https://github.com/SmartRouterZone/Source
+
 https://github.com/Yuzhii0718
 https://github.com/x-wrt
 https://github.com/ssnlin
 https://github.com/fabricio3g/microbot-claw
 https://github.com/lzylipu/openclaw-skill-openwrt-redial
 https://github.com/duomi998/luci-app-openclaw-js
-
-# https://github.com/irrocu/openclash
-# https://github.com/zuifengguai/OpenClash_Clash
-# https://github.com/openclashnode/openclashnode.github.io
-# https://github.com/xiaojing110/luci-app-openclaw
+https://github.com/he-yu-qing/2512immortalwrt-mt798x-rebase/tree/25.12
 
 # istore
 git clone --depth=1 https://github.com/linkease/istore  package/istore
