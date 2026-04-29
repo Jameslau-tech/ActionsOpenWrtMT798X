@@ -6,34 +6,22 @@ $ https://github.com/Jameslau-tech/fanchmwrt
 3）new feed
 src-git fanchmwrt https://github.com/fanchmwrt/fanchmwrt-packages.git
 
-节点订阅
-https://github.com/beck-8/subs-check
-https://github.com/shuaidaoya/FreeNodes
-
-https://github.com/getumbrel/umbrel
-
+https://github.com/he-yu-qing/2512immortalwrt-mt798x-rebase/tree/25.12
 https://github.com/zjuahhy/immortalwrt-mt798x-rebase/
-https://github.com/he-yu-qing/2512immortalwrt-mt798x-rebase
 https://github.com/VIKINGYFY/CloseWRT-CI
-#https://github.com/bia-pain-bache/BPB-Worker-Panel
-# This is free software, licensed under the MIT License.
-# See /LICENSE for more information.
-https://github.com/byJoey/cfnew/tree/main
-# https://github.com/SmartRouterZone/CLX-S20P/tree/master
-
 https://github.com/Yuzhii0718
 https://github.com/x-wrt
-https://github.com/ssnlin
+
+#节点订阅
+https://github.com/beck-8/subs-check
+https://github.com/shuaidaoya/FreeNodes
+#https://github.com/bia-pain-bache/BPB-Worker-Panel
+https://github.com/getumbrel/umbrel
+
+#OpenClaw
 https://github.com/fabricio3g/microbot-claw
 https://github.com/lzylipu/openclaw-skill-openwrt-redial
 https://github.com/duomi998/luci-app-openclaw-js
-https://github.com/he-yu-qing/2512immortalwrt-mt798x-rebase/tree/25.12
-
-# istore
-git clone --depth=1 https://github.com/linkease/istore  package/istore
-git clone --depth=1 https://github.com/linkease/nas-packages  package/nas
-git clone --depth=1 https://github.com/linkease/nas-packages-luci  package/nas-luci
-
 
 # 固件版本名称自定义
 #sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION='OpenWrt By gino $(date +"%Y%m%d")'/g" package/base-files/files/etc/openwrt_release
