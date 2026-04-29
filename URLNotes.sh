@@ -6,7 +6,6 @@ $ https://github.com/Jameslau-tech/fanchmwrt
 3）new feed
 src-git fanchmwrt https://github.com/fanchmwrt/fanchmwrt-packages.git
 
-#src-git OpenWRT_packages https://github.com/ZeroWrt/openwrt_packages.git
 节点订阅
 https://github.com/beck-8/subs-check
 https://github.com/shuaidaoya/FreeNodes
@@ -35,18 +34,9 @@ git clone --depth=1 https://github.com/linkease/istore  package/istore
 git clone --depth=1 https://github.com/linkease/nas-packages  package/nas
 git clone --depth=1 https://github.com/linkease/nas-packages-luci  package/nas-luci
 
-#mediatek
-# https://git01.mediatek.com/plugins/gitiles/openwrt/feeds/mtk-openwrt-feeds/
-
 
 # 固件版本名称自定义
 #sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION='OpenWrt By gino $(date +"%Y%m%d")'/g" package/base-files/files/etc/openwrt_release
-
-# 取消原主题luci-theme-bootstrap 为默认主题
-#sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
-
-# 修改 argon 为默认主题
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # 删除原默认主题
 #rm -rf package/lean/luci-theme-bootstrap
