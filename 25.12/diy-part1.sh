@@ -28,7 +28,7 @@ git clone --depth=1 -b dev https://github.com/vernesong/OpenClash.git feeds/luci
 
 # Nikki / Momo
 #git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki.git package/custom/nikki
-#git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-momo.git package/custom/momo
+git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-momo.git package/custom/momo
 
 # Daed
 #git clone --depth=1 -b kix https://github.com/QiuSimons/luci-app-daed.git package/custom/daed
