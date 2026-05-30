@@ -62,7 +62,7 @@ rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 26.x feeds/packages/lang/golang
 
 # VPN
-#git clone --depth=1 https://github.com/EasyTier/luci-app-easytier.git package/custom/easytier
+git clone --depth=1 https://github.com/EasyTier/luci-app-easytier.git package/custom/easytier
 #git clone --depth=1 https://github.com/Tokisaki-Galaxy/luci-app-tailscale-community.git package/custom/tailscale-community
 
 # 主题
