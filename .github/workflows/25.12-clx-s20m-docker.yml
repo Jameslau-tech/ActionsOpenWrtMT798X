@@ -12,7 +12,7 @@ env:
   # 源码仓库地址
   # REPO_URL: https://github.com/dailook/immortalwrt-mt798x-6.6
   # REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
-  REPO_URL: https://github.com/Jameslau-tech/immortalwrt-mt798x-rebase
+  REPO_URL: https://github.com/jameslau-tech/immortalwrt-mt798x-rebase
   # 源码分支
   REPO_BRANCH: 25.12
   # Feeds 配置文件名
