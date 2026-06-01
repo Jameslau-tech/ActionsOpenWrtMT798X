@@ -1,7 +1,7 @@
 name: 25.12fam-clx-s20m
 env:
   DEVICE_NAME: 25.12-s20m
-  REPO_URL: https://github.com/Jameslau-tech/immortalwrt-mt798x-rebase
+  REPO_URL: https://github.com/jameslau-tech/immortalwrt-mt798x-rebase
   REPO_BRANCH: fammtk
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 25.12/mt7986-fanwrt-2512.config
